@@ -1,0 +1,11 @@
+printjson(db.people.deleteMany({height:{$gt: "190"}}));
+printjson(db.people.find({height:{$gt:"190"}}).toArray())MongoDB shell version v3.6.21
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("30991d4c-9b0b-4c4e-a0e7-fb4bb87c8e74") }
+MongoDB server version: 3.6.21
+MongoDB shell version v3.6.21
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d2a45c81-5750-4107-a163-7b5d8ecba9db") }
+MongoDB server version: 3.6.21
+{ "acknowledged" : true, "deletedCount" : 123 }
+[ ]
